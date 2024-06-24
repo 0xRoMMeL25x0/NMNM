@@ -1,0 +1,5 @@
+termcolor 
+requests
+json
+datetime
+BeautifulSoup
