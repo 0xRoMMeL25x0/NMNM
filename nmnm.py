@@ -48,8 +48,8 @@ Usage:      python nmnm.py -option <values>
 **All outputs will be saved in outputs folder**
 **If you want save output of any option just print it Capital** 
 -Examples :
-pyhton nmnm.py -s https://www.example.com ---> not save
-pyhton nmnm.py -S https://www.example.com example html --> will save 
+python nmnm.py -s https://www.example.com ---> not save
+python nmnm.py -S https://www.example.com example html --> will save 
 
 --Tool Options--
 -h,         help  Show this help message
@@ -61,10 +61,10 @@ pyhton nmnm.py -S https://www.example.com example html --> will save
 -rsh        request by headers in /moduels/request/H.json and get the response headers
 -rs         simple request and get response headers
 -Examples:
-pyhton nmnm.py -ch  <url>
-pyhton nmnm.py -r   <url>
-pyhton nmnm.py -rs  <url>
-pyhton nmnm.py -rsh <url>
+python nmnm.py -ch  <url>
+python nmnm.py -r   <url>
+python nmnm.py -rs  <url>
+python nmnm.py -rsh <url>
 
 -- reapete the request-- 
 --counter-- 
