@@ -17,16 +17,16 @@ except ImportError:
 def banner() :
     banner = """
 
- _   _ __  __         _   _ __  __    
-| \\ | |  \\/  |       | \\ | |  \\/  |            
-|  \\| | |\\/| |NGM_301|  \\| | |\\/| |
-| |\\  | |  | |       | |\\  | |  | | 
-|_| \\_|_|  |_|       |_| \\_|_|  |_| 
+ _   _ __  __                _   _ __  __    
+| \\ | |  \\/  |            | \\ | |  \\/ |            
+|  \\| | |\\/| |0xRoMMeL25x0|  \\| | |\\/||
+| |\\  | |  | |             | |\\  | |  | | 
+|_| \\_|_|  |_|             |_| \\_|_|  |_| 
 
 
 """ 
     print(banner)
-    print(termcolor.colored("[+] ", "blue"), termcolor.colored("NMNM -- V 1.1 By NGM_301 [{}] ".format(datetime.datetime.now().ctime()), "dark_grey"))
+    print(termcolor.colored("[+] ", "blue"), termcolor.colored("NMNM -- V 1.2 By 0xRoMMeL25x0 [{}] ".format(datetime.datetime.now().ctime()), "dark_grey"))
     print(termcolor.colored("[+] ", "blue"), termcolor.colored("Simple tool to create and send requests, read response and Some of Web Scrping ", "dark_grey")) 
     print(termcolor.colored("[+] ", "blue"), termcolor.colored("You Can Edit The Requests HTTP headers From /moduels/request/H.json File", "red"))
     print(termcolor.colored("[+] ", "blue"), termcolor.colored("If you encounter any problem, make sure to install the important Moduels in the requirements file or Execute Setup.py file and do not use root mode in Linux ", "red"))
@@ -106,7 +106,7 @@ python nmnm.py -rsh <url>
 
 
 def version():
-    version = "V 1.1 | By NGM_301 \n"
+    version = "V 1.2 | By 0xRoMMeL25x0 \n"
     print(version)
 
 try :
